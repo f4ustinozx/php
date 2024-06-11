@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+:root {
+    --purple: #5E17EB;
+    --orange: #FF914D;
+    --blue: #5CE1E6;
+  }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../img/background.png);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+    flex-direction: column;
+}
+
+.cadastro-vendedor {
+    width: 350px;
+    height: 380px;
+    background-color: #5E17EB;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    box-shadow: 2px 5px 13px 1px #000;
+}
+
+
+.cadastro {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center; 
+    height: 100%; 
+    width: 80%; 
+}
+  
+input{
+    width: 200px;
+    height: 35px;
+    border-radius: 15px;
+}
+
+.btn-vendedor{
+    background-color: var(--orange);
+    width: 200px;
+    height: 35px;
+    color: #5E17EB;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 20px;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.btn-vendedor:hover{
+    transform: scale(1.1);
+    font-weight: bold;
+}
